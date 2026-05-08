@@ -65,7 +65,7 @@ export default function LandingPage() {
           handle: "@sarahj",
           testimonial: "Best service ever!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/country-music-interpret-singing-outdoors_23-2149498450.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/country-music-interpret-singing-outdoors_23-2149498450.jpg?_wi=1",
         },
         {
           name: "Mike D.",
@@ -102,7 +102,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358979.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358979.jpg?_wi=1"
       imageAlt="House exterior being cleaned"
       avatars={[
         {
@@ -185,7 +185,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358973.jpg",
             imageAlt: "Window",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358979.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358979.jpg?_wi=2",
           imageAlt: "clean windows house facade",
         },
         {
@@ -213,7 +213,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/person-wearing-yellow-rubber-boots-with-high-pressure-water-nozzle-cleaning-dirt-tiles_181624-23652.jpg",
             imageAlt: "Driveway",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/country-music-interpret-singing-outdoors_23-2149498450.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/country-music-interpret-singing-outdoors_23-2149498450.jpg?_wi=2",
           imageAlt: "clean windows house facade",
         },
       ]}
