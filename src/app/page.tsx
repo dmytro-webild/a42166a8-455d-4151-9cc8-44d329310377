@@ -50,6 +50,8 @@ export default function LandingPage() {
         variant: "gradient-bars"}}
       title="EXTERIOR CLEANING\nDONE RIGHT."
       description="Professional results. Every time."
+      titleClassName="text-white font-extrabold uppercase leading-tight text-left"
+      descriptionClassName="text-white/80 text-left"
       testimonials={[
         {
           name: "Sarah J.",          handle: "@sarahj",          testimonial: "Best service ever!",          rating: 5,
