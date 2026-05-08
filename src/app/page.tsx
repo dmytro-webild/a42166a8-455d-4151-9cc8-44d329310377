@@ -32,21 +32,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Features",
-          id: "features",
-        },
+          name: "Features",          id: "features"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Exterior Clean"
     />
@@ -55,98 +47,55 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="EXTERIOR CLEANING\nDONE RIGHT."
       description="Professional results. Every time."
       testimonials={[
         {
-          name: "Sarah J.",
-          handle: "@sarahj",
-          testimonial: "Best service ever!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/country-music-interpret-singing-outdoors_23-2149498450.jpg?_wi=1",
-        },
+          name: "Sarah J.",          handle: "@sarahj",          testimonial: "Best service ever!",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/country-music-interpret-singing-outdoors_23-2149498450.jpg"},
         {
-          name: "Mike D.",
-          handle: "@miked",
-          testimonial: "Very professional.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/freelancer-mature-man-casual-clothes-with-laptop-near-brick-wall_259150-58370.jpg",
-        },
+          name: "Mike D.",          handle: "@miked",          testimonial: "Very professional.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/freelancer-mature-man-casual-clothes-with-laptop-near-brick-wall_259150-58370.jpg"},
         {
-          name: "Anna P.",
-          handle: "@annap",
-          testimonial: "Quick and easy.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-cleaning-his-home_23-2148112857.jpg",
-        },
+          name: "Anna P.",          handle: "@annap",          testimonial: "Quick and easy.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-cleaning-his-home_23-2148112857.jpg"},
         {
-          name: "David W.",
-          handle: "@davidw",
-          testimonial: "Highly recommended.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/collage-customer-experience-concept_23-2149367130.jpg",
-        },
+          name: "David W.",          handle: "@davidw",          testimonial: "Highly recommended.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/collage-customer-experience-concept_23-2149367130.jpg"},
         {
-          name: "Julie K.",
-          handle: "@juliek",
-          testimonial: "Top notch results.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-enjoying-cup-matcha-tea_23-2150215071.jpg",
-        },
+          name: "Julie K.",          handle: "@juliek",          testimonial: "Top notch results.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/man-enjoying-cup-matcha-tea_23-2150215071.jpg"},
       ]}
       buttons={[
         {
-          text: "Get a Quote",
-          href: "#contact",
-        },
+          text: "Get a Quote",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358979.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358979.jpg"
       imageAlt="House exterior being cleaned"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-smiley-man-home-with-heater_23-2149339547.jpg",
-          alt: "Happy client 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/medium-shot-smiley-man-home-with-heater_23-2149339547.jpg",          alt: "Happy client 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/expressive-senior-female-posing-indoor_344912-360.jpg",
-          alt: "Happy client 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/expressive-senior-female-posing-indoor_344912-360.jpg",          alt: "Happy client 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/woman-living-room-smiles-holding-mug_23-2148385593.jpg",
-          alt: "Happy client 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/woman-living-room-smiles-holding-mug_23-2148385593.jpg",          alt: "Happy client 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/modern-woman-home-with-book_23-2147611420.jpg",
-          alt: "Happy client 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/modern-woman-home-with-book_23-2147611420.jpg",          alt: "Happy client 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/woman-watering-plants-full-shot_23-2149722642.jpg",
-          alt: "Happy client 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/woman-watering-plants-full-shot_23-2149722642.jpg",          alt: "Happy client 5"},
       ]}
       marqueeItems={[
         {
-          type: "text",
-          text: "Pressure Washing",
-        },
+          type: "text",          text: "Pressure Washing"},
         {
-          type: "text",
-          text: "Window Cleaning",
-        },
+          type: "text",          text: "Window Cleaning"},
         {
-          type: "text",
-          text: "Roof Restoration",
-        },
+          type: "text",          text: "Roof Restoration"},
         {
-          type: "text",
-          text: "Driveway Sealing",
-        },
+          type: "text",          text: "Driveway Sealing"},
         {
-          type: "text",
-          text: "Gutter Cleaning",
-        },
+          type: "text",          text: "Gutter Cleaning"},
       ]}
     />
   </div>
@@ -156,14 +105,9 @@ export default function LandingPage() {
       useInvertedBackground={true}
       heading={[
         {
-          type: "text",
-          content: "Our Mission: Excellence in Clean",
-        },
+          type: "text",          content: "Our Mission: Excellence in Clean"},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/cleaning-concept-flat-lay-composition_23-2148118420.jpg",
-          alt: "Cleaning equipment",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/cleaning-concept-flat-lay-composition_23-2148118420.jpg",          alt: "Cleaning equipment"},
       ]}
     />
   </div>
@@ -175,46 +119,22 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Window Cleaning",
-          description: "Crystal clear results every time.",
-          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/construction-worker-using-hammer-job-site_23-2150530688.jpg",
-            imageAlt: "Window",
-          },
+          title: "Window Cleaning",          description: "Crystal clear results every time.",          phoneOne: {
+            imageSrc: "http://img.b2bpic.net/free-photo/construction-worker-using-hammer-job-site_23-2150530688.jpg",            imageAlt: "Window"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358973.jpg",
-            imageAlt: "Window",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358979.jpg?_wi=2",
-          imageAlt: "clean windows house facade",
+            imageSrc: "http://img.b2bpic.net/free-photo/man-doing-professional-home-cleaning-service_23-2150358973.jpg",            imageAlt: "Window"}
         },
         {
-          title: "Roof Washing",
-          description: "Protect your roof integrity.",
-          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-roof-house-made-wooden-tiles_169016-24989.jpg",
-            imageAlt: "Roof",
-          },
+          title: "Roof Washing",          description: "Protect your roof integrity.",          phoneOne: {
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-roof-house-made-wooden-tiles_169016-24989.jpg",            imageAlt: "Roof"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-sitting-roof_23-2149343640.jpg",
-            imageAlt: "Roof",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/cleaning-concept-flat-lay-composition_23-2148118420.jpg",
-          imageAlt: "clean windows house facade",
+            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-sitting-roof_23-2149343640.jpg",            imageAlt: "Roof"}
         },
         {
-          title: "Driveway Cleaning",
-          description: "Remove stubborn stains quickly.",
-          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080293.jpg",
-            imageAlt: "Driveway",
-          },
+          title: "Driveway Cleaning",          description: "Remove stubborn stains quickly.",          phoneOne: {
+            imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080293.jpg",            imageAlt: "Driveway"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/person-wearing-yellow-rubber-boots-with-high-pressure-water-nozzle-cleaning-dirt-tiles_181624-23652.jpg",
-            imageAlt: "Driveway",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/country-music-interpret-singing-outdoors_23-2149498450.jpg?_wi=2",
-          imageAlt: "clean windows house facade",
+            imageSrc: "http://img.b2bpic.net/free-photo/person-wearing-yellow-rubber-boots-with-high-pressure-water-nozzle-cleaning-dirt-tiles_181624-23652.jpg",            imageAlt: "Driveway"}
         },
       ]}
       showStepNumbers={false}
@@ -229,45 +149,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",
-          title: "Great Experience",
-          quote: "Fantastic service!",
-          name: "Sarah J.",
-          role: "CEO",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-cleaning-his-home_23-2148112375.jpg",
-        },
+          id: "1",          title: "Great Experience",          quote: "Fantastic service!",          name: "Sarah J.",          role: "CEO",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-cleaning-his-home_23-2148112375.jpg"},
         {
-          id: "2",
-          title: "Professional",
-          quote: "They were quick and professional.",
-          name: "Mike D.",
-          role: "Manager",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-phone_1163-3423.jpg",
-        },
+          id: "2",          title: "Professional",          quote: "They were quick and professional.",          name: "Mike D.",          role: "Manager",          imageSrc: "http://img.b2bpic.net/free-photo/young-man-phone_1163-3423.jpg"},
         {
-          id: "3",
-          title: "Amazing Results",
-          quote: "My driveway looks brand new.",
-          name: "Anna P.",
-          role: "Designer",
-          imageSrc: "http://img.b2bpic.net/free-photo/wonderful-girl-denim-skirt-laughing-looking-away-outdoor-photo-good-looking-caucasian-lady-with-shiny-hair-fooling-around_197531-8808.jpg",
-        },
+          id: "3",          title: "Amazing Results",          quote: "My driveway looks brand new.",          name: "Anna P.",          role: "Designer",          imageSrc: "http://img.b2bpic.net/free-photo/wonderful-girl-denim-skirt-laughing-looking-away-outdoor-photo-good-looking-caucasian-lady-with-shiny-hair-fooling-around_197531-8808.jpg"},
         {
-          id: "4",
-          title: "Top Quality",
-          quote: "High quality finish.",
-          name: "David W.",
-          role: "Owner",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-holding-pencil_23-2148372127.jpg",
-        },
+          id: "4",          title: "Top Quality",          quote: "High quality finish.",          name: "David W.",          role: "Owner",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-holding-pencil_23-2148372127.jpg"},
         {
-          id: "5",
-          title: "Reliable",
-          quote: "Showed up on time and delivered.",
-          name: "Julie K.",
-          role: "User",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-young-man-walking-street-with-backpack-his-shoulders_58466-16223.jpg",
-        },
+          id: "5",          title: "Reliable",          quote: "Showed up on time and delivered.",          name: "Julie K.",          role: "User",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-young-man-walking-street-with-backpack-his-shoulders_58466-16223.jpg"},
       ]}
       title="What Our Clients Say"
       description="Trusted by hundreds of homeowners."
@@ -282,25 +172,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "1",
-          value: "500+",
-          title: "Projects Completed",
-          description: "Homes serviced",
-          icon: CheckCircle,
+          id: "1",          value: "500+",          title: "Projects Completed",          description: "Homes serviced",          icon: CheckCircle,
         },
         {
-          id: "2",
-          value: "99%",
-          title: "Satisfaction Rate",
-          description: "Happy homeowners",
-          icon: Star,
+          id: "2",          value: "99%",          title: "Satisfaction Rate",          description: "Happy homeowners",          icon: Star,
         },
         {
-          id: "3",
-          value: "10",
-          title: "Years Experience",
-          description: "Expert service",
-          icon: Award,
+          id: "3",          value: "10",          title: "Years Experience",          description: "Expert service",          icon: Award,
         },
       ]}
       title="Our Track Record"
@@ -314,20 +192,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "1",
-          title: "How often should I clean?",
-          content: "Once every 12 months.",
-        },
+          id: "1",          title: "How often should I clean?",          content: "Once every 12 months."},
         {
-          id: "2",
-          title: "Is it safe?",
-          content: "Yes, we use eco-friendly cleaners.",
-        },
+          id: "2",          title: "Is it safe?",          content: "Yes, we use eco-friendly cleaners."},
         {
-          id: "3",
-          title: "How long does it take?",
-          content: "Usually a few hours.",
-        },
+          id: "3",          title: "How long does it take?",          content: "Usually a few hours."},
       ]}
       title="Common Questions"
       description="Find answers to our services."
@@ -339,14 +208,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       text="Ready to get started? Contact us today for a free quote."
       buttons={[
         {
-          text: "Contact Us",
-          href: "mailto:hello@example.com",
-        },
+          text: "Contact Us",          href: "mailto:hello@example.com"},
       ]}
     />
   </div>
@@ -356,29 +222,19 @@ export default function LandingPage() {
       logoText="Exterior Clean"
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "About",              href: "#about"},
             {
-              label: "Services",
-              href: "#features",
-            },
+              label: "Services",              href: "#features"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms",
-              href: "#",
-            },
+              label: "Terms",              href: "#"},
           ],
         },
       ]}
